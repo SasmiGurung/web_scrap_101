@@ -1,5 +1,3 @@
-# pip install requests
-# pip install beautifulsoup4
 import requests
 from bs4 import BeautifulSoup
 
@@ -8,6 +6,7 @@ def get_HTML_text(url):
     response = requests.get(url)
     response_page = response.text
     response_status = response.status_code
+    print(response_status)
 
     if response_status == 200:
         return response_page
