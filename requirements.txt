@@ -7,7 +7,7 @@ chardet==3.0.4
 Click==7.0
 cycler==0.10.0
 decorator==4.4.2
-Django==3.0.2
+Django==3.0.14
 Flask==1.1.1
 idna==2.9
 ipykernel==5.1.4
